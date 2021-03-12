@@ -1,0 +1,48 @@
+@media screen and (max-width: 750px) {
+    .wrapper {
+        padding: 0 20px;
+        .logo {
+            padding: 80px 0 20px;
+        }
+        .main-wrapper {
+            padding: 0 20px;
+            h1 {
+                font-size: 24px;
+            }
+            div {
+                font-size: 12px;
+            }
+            .form-wrapper {
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                .form-inputContainer {
+                    width: 100%;
+                    input {
+                        width: 100%;
+                        max-width: 400px;
+                        padding: 10px 30px;
+                    }
+                    .emailValidate {
+                        position: relative;
+                        padding: 0;
+                        margin-top: 5px;
+                    }
+                }
+                button {
+                    width: 100%;
+                    max-width: 400px;
+                    margin: 10px 0 0;
+                    padding: 10px 30px;
+                }
+            }
+        }
+        .illustration {
+            img {
+                max-height: initial;
+                width: 100%;
+                max-width: 500px;
+            }
+        }
+    }
+}

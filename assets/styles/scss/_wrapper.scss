@@ -1,0 +1,80 @@
+@import './variables';
+.wrapper {
+    min-height: 100vh;
+    text-align: center;
+    .logo {
+        padding: 85px 0 20px;
+    }
+    .main-wrapper {
+        h1 {
+            margin: 24px 0 18px;
+            font-size: 3rem;
+            letter-spacing: 0.5px;
+            span {
+                font-weight: 300;
+                color: $Gray;
+            }
+        }
+        .form-wrapper {
+            margin: 38px 0 10px;
+            display: flex;
+            justify-content: center;
+            .form-inputContainer {
+                input {
+                    border: 1px solid $Pale-Blue;
+                    width: 420px;
+                    &:hover {
+                        border-color: $Blue;
+                    }
+                    &::placeholder {
+                        color: $Pale-Blue;
+                    }
+                }
+                .emailValidate {
+                    position: absolute;
+                    font-style: italic;
+                    color: $Light-Red;
+                    font-size: 12px;
+                    padding: 8px 0 0 30px;
+                }
+            }
+            .error {
+                input {
+                    border: 1px solid $Light-Red;
+                }
+            }
+            .success {
+                input {
+                    border: 1px solid $Pale-Blue;
+                }
+                .emailValidate {
+                    color: $Green;
+                }
+            }
+            button {
+                border: none;
+                background: $Blue;
+                color: white;
+                font-weight: 600;
+                font-size: 1rem;
+                width: 200px;
+                margin-left: 15px;
+                cursor: pointer;
+                box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+                &:hover {
+                    opacity: 0.8;
+                }
+            }
+        }
+    }
+    .illustration {
+        margin: 85px 0 70px;
+        img {
+            max-height: 392px;
+        }
+    }
+}
+.form--style {
+    border-radius: 50px;
+    padding: 19px 30px;
+}

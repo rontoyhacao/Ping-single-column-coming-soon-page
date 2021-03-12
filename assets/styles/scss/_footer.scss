@@ -1,0 +1,47 @@
+@import './variables';
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+    padding-bottom: 30px;
+    .social {
+        margin: 20px 0;
+        ul {
+            display: flex;
+            flex-direction: row;
+            list-style: none;
+            justify-content: center;
+            font-size: 1rem;
+            li {
+                &:first-child {
+                    margin-right: 12px;
+                }
+                &:last-child {
+                    margin-left: 12px;
+                }
+                a {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    border: 1px solid $Pale-Blue;
+                    border-radius: 50%;
+                    height: 30px;
+                    width: 30px;
+                    text-decoration: none;
+                    color: $Blue;
+                    &:hover {
+                        color: white;
+                        background: $Blue;
+                    }
+                }
+            }
+        }
+    }
+    small {
+        color: $Gray;
+        font-size: 12px;
+    }
+    a { 
+        color: hsl(228, 45%, 44%); 
+    }
+}
+    
