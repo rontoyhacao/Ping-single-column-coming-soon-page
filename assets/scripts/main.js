@@ -12,7 +12,7 @@ function checkInputs() {
 	const emailValue = email.value.trim();
 	
 	if(emailValue == '') {
-		setErrorFor(email, 'Email cannot be blank');
+		setErrorFor(email, 'Please enter an email address');
 	} else if (!isEmail(emailValue)) {
 		setErrorFor(email, 'Please provide a valid email address');
 	} else {
@@ -33,6 +33,7 @@ function setSuccessFor(input, message) {
     const small = formControl.querySelector('.emailValidate');
 	formControl.className = 'form-inputContainer success';
     small.innerText = message;
+	form.reset();
 }
 	
 function isEmail(email) {
