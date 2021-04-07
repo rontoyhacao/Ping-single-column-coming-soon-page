@@ -31,16 +31,16 @@ Users should be able to:
 
 #### Desktop
 
-![](./desktop.jpg)
+![](./screenshots/desktop.jpg)
 
 #### Mobile
 
-![](./mobile.jpg)
+![](./screenshots/mobile.jpg)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/rontoyhacao/Ping-single-column-coming-soon-page)
-- Live Site URL: [Add live site URL here](https://ping-single-column-coming-soon-page-git-main-rontoyhacao.vercel.app/)
+- Solution URL: [https://github.com/rontoyhacao/Ping-single-column-coming-soon-page](https://github.com/rontoyhacao/Ping-single-column-coming-soon-page)
+- Live Site URL: [https://ping-single-column-coming-soon-page-git-main-rontoyhacao.vercel.app/](https://ping-single-column-coming-soon-page-git-main-rontoyhacao.vercel.app/)
 
 ## My process
 
@@ -138,11 +138,11 @@ function checkInputs() {
 
 ### Useful resources
 
-- [Email Validation Check in HTML CSS & JavaScript by CodingNepal](https://www.youtube.com/watch?v=qGzJtVbXPhY) - This Youtube video helped me for solving this challenge. It helped me understand the logic of how email validation works. 
+- [Email Validation Check in HTML CSS & JavaScript by CodingNepal](https://www.youtube.com/watch?v=qGzJtVbXPhY) - This Youtube video helped me in solving this challenge. It helped me understand the logic of how email validation is made. 
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
+- Website - [Ron Paolo Toyhacao](https://www.your-site.com)
 - Frontend Mentor - [@rontoyhacao](https://www.frontendmentor.io/profile/rontoyhacao)
 - Twitter - [@rontoyhacao](https://twitter.com/rontoyhacao)
 
